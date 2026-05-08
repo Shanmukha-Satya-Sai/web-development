@@ -1,0 +1,29 @@
+.colour_blue{
+    color: blue;
+}
+.colour_red{
+    color: red;
+    background-color: aquamarine;
+}
+.colour_green{
+    color: green;
+}
+.zinitsu{
+    width: 500px;
+}
+
+.itachi{
+    width: 500px;
+}
+.abc{
+    border-style: solid;
+    border-width: 30px;
+    border-color: blue;
+
+    padding: 20px;
+
+    margin: 50px;
+
+    text-align: justify;
+    width: 70%;
+}

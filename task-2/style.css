@@ -1,0 +1,94 @@
+.navbar{
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 10 px 20px;
+    margin: 0 20px;
+    border: 10px solid black;
+
+    background: black;
+    color: white;
+
+    transition: .3s;
+}
+.navbar a:hover{
+    background: white;
+    color: black;
+}
+
+.hero{
+    border: 2px red;
+
+    height: 80vh;
+    background-image:url('https://www.w3schools.com/w3images/architect.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color:black;
+    font-size: 25px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 1em;
+
+}
+
+.projects img {
+    width: 100%;
+}
+
+.about .about_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.contact form{
+    display: grid;
+    gap: 1em;
+    margin-bottom: 30px;
+
+}
+
+form input[type="submit"]{
+    width: fit-content;
+    background-color: black;
+    color: white;
+}
+
+form input:hover{
+    color: white;
+    background-color: grey;
+}
+
+.footer{
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+}
+
+.footer p{
+    padding-top: 33px;
+}
+
