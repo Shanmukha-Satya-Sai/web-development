@@ -9,7 +9,7 @@
 // let heading=document.getElementById("1h1")
 // console.log(heading)
 
-let heading=document.getElementById("1h1")
+//let heading=document.getElementById("1h1")
 
 // heading.innerText="hello"
 // heading.innerText="<u>hello</u>"
@@ -19,3 +19,8 @@ let heading=document.getElementById("1h1")
 
 // h1.innerText="abcdef"
 
+let paras=document.getElementsByTagName("p")
+
+paras[4].innerHTML="hello para5"
+
+document.getElementsByClassName("para")[1].innerHTML = "Hello"
